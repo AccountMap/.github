@@ -7,7 +7,7 @@ AccountMap maps every account you have to the email, phone number, device, or au
 | | |
 |---|---|
 | 🗺️ **App** | [`accountmap`](https://github.com/AccountMap/accountmap): web, desktop (Tauri), and browser extension in one monorepo |
-| 🌐 **Website** | [accountmap.org](https://accountmap.org) · [source](https://github.com/AccountMap/accountmap-org) |
+| 🌐 **Website** | [accountmap.org](https://accountmap.org) · [source](https://github.com/AccountMap/website) |
 | 🏆 **Hackathon version** | [Live demo](https://demo.accountmap.org) · [source](https://github.com/malakhovtsev/accountmap) |
 
 **Status:** planning and early development. See the [roadmap](https://github.com/AccountMap/accountmap/milestones) and issues labeled [`good first issue`](https://github.com/AccountMap/accountmap/labels/good%20first%20issue) if you'd like to help.
