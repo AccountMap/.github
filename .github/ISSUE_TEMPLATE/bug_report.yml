@@ -1,0 +1,54 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security issue?** Don't file it here. Use the repository's Security tab → *Report a vulnerability*.
+        **Use made-up data only.** Never paste real emails, phone numbers, or account lists.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - Web app
+        - Desktop app
+        - Browser extension
+        - Website (accountmap.org)
+        - Hackathon demo
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App version, or the date you used the website or demo
+  - type: input
+    id: environment
+    attributes:
+      label: OS and browser
+      placeholder: e.g. macOS 15, Chrome 142
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: Include error messages or screenshots (with made-up data).
+    validations:
+      required: true
